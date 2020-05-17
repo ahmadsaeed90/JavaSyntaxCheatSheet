@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Set;
 import java.util.Stack;
 
 public class Syntax {
@@ -75,5 +77,12 @@ public class Syntax {
 		queue.add(2);
 		int num = queue.remove();
 		int siz = queue.size();
+		
+		//Set
+		Set<Integer> set = new HashSet<Integer>();
+		set.add(2);
+		set.contains(1);
+		set.remove(2);
+		set.toArray(new Integer[set.size()]);
 	}
 }
