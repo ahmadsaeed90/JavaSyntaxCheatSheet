@@ -12,6 +12,8 @@ public class Syntax {
 		//Integer
 		Integer i = 0;
 		i = Integer.parseInt("123");
+		int minInt = Integer.MIN_VALUE;
+		int maxInt = Integer.MAX_VALUE;
 		
 		// Mathematical operations
 		var ab = Math.abs(-1);
