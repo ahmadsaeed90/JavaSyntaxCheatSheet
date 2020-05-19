@@ -24,7 +24,7 @@ public class Syntax {
 		var str = "test";
 		int len = str.length();
 		char c = str.charAt(0);
-		var substr = str.substring(1, 3);	// ending excluded
+		var substr = str.substring(1, 3);	// ending index excluded
 		var substr2 = str.substring(4);
 		String[] tokens = str.split(",");
 		int index1 = str.indexOf('t');
