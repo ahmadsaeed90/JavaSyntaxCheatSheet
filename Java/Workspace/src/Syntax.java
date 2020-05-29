@@ -79,7 +79,9 @@ public class Syntax {
 	queue.add(2);
 	int num = queue.remove();
 	int siz = queue.size();
-
+	var elem = queue.peek();
+	var lastElem = queue.peekLast();  // get last element without removing
+		
 	//Set
 	Set<Integer> set = new HashSet<Integer>();
 	set.add(2);
