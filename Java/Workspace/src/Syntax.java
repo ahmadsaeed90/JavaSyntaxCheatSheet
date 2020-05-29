@@ -30,7 +30,7 @@ public class Syntax {
 	int index1 = str.indexOf('t');
 	int index2 = str.indexOf("es");
 	int index3 = str.lastIndexOf("c");
-	char [] chars = str.toCharArray();
+	char [] chars = str.toCharArray();     // for loop can be used on char array, not string
 
 	String newStr = str.replace("t", "abc");  // replaces all substrings		
 	String newStr2 = str.replaceFirst("t", "abc"); // replace only first substring
