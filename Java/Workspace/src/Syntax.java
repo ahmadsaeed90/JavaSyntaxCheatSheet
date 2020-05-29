@@ -77,7 +77,8 @@ public class Syntax {
 	//Queue
 	var queue = new LinkedList<Integer>();
 	queue.add(2);
-	int num = queue.remove();
+	int num = queue.remove();         	  //throws eception if queue empty
+	Integer num = queue.poll();	          // same as remove but returns null if queue empty
 	int siz = queue.size();
 	var elem = queue.peek();
 	var lastElem = queue.peekLast();  // get last element without removing
