@@ -1,8 +1,10 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.Stack;
 
@@ -77,6 +79,15 @@ public class Syntax {
 		queue.add(2);
 		int num = queue.remove();
 		int siz = queue.size();
+		
+		//Priority Queue (heap)
+		var pq = new PriorityQueue<Integer>(10);		// min heap by default
+		pq.add(1);
+		pq.add(2);
+		pq.remove();				// returns the element at root (minimum depending on comparator)
+		pq.peek();					// returns element at the root
+		pq.size();
+		var maxPq = new PriorityQueue<Integer>(Collections.reverseOrder());	// max heap
 		
 		//Set
 		Set<Integer> set = new HashSet<Integer>();
