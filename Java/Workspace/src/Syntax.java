@@ -59,6 +59,7 @@ public class Syntax {
 		String s = list.get(0); // get by index
 		list.set(1, "cd");
 		int size = list.size();
+		int max = Collections.max(list);
 
 		// Map
 		Map<Integer, String> map = new HashMap<Integer, String>();
