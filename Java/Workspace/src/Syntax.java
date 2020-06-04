@@ -60,6 +60,7 @@ public class Syntax {
 		list.set(1, "cd");
 		int size = list.size();
 		int max = Collections.max(list);
+		var cloned = list.clone();			shallow copy
 
 		// Map
 		Map<Integer, String> map = new HashMap<Integer, String>();
