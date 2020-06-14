@@ -102,5 +102,9 @@ public class Syntax {
 		set.contains(1);
 		set.remove(2);
 		set.toArray(new Integer[set.size()]);
+		
+		//Random
+		Random rand = new Random();
+		int next = rand.nextInt(10);   // generate from 0-9
 	}
 }
