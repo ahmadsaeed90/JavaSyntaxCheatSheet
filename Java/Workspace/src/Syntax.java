@@ -45,6 +45,8 @@ public class Syntax {
 		boolean isWhiteSpace = Character.isWhitespace(ch);
 		boolean isDigit = Character.isDigit(ch);
 		boolean isLetter = Character.isLetter(ch);
+		boolean isLower = Character.isLowerCase('a');
+		boolean isUpper = Character.isUpperCase('a');
 
 		// List
 		var list = new ArrayList<String>();
