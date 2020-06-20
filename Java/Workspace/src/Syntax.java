@@ -75,6 +75,12 @@ public class Syntax {
 		String val = map.get(1);
 		String va = map.getOrDefault(1, "default");
 		String removed = map.remove(1);
+		
+		//TreeMap. Sorted using order of keys ascending (Implemented using Red Black Tree). All operations are O(log(n))
+		var treeMap = new TreeMap<Integer, Integer>();
+		
+		//LinkedHashMap maintains order of insertion. Implemented using doubly linked list. Insertion and lookup are O(1)
+		var linkedHashMap = new LinkedHashMap<Integer, Integer>();
 
 		// Stack
 		var stack = new Stack<Integer>();
@@ -112,12 +118,5 @@ public class Syntax {
 		//Random
 		Random rand = new Random();
 		int next = rand.nextInt(10);   // generate from 0-9
-		
-		//TreeMap. Sorted using order of keys ascending (Implemented using Red Black Tree). All operations are O(log(n))
-		var treeMap = new TreeMap<Integer, Integer>();
-		
-		//LinkedHashMap maintains order of insertion. Implemented using doubly linked list
-		var linkedHashMap = new LinkedHashMap<Integer, Integer>();
-		
 	}
 }
