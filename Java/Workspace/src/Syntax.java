@@ -110,6 +110,8 @@ public class Syntax {
 		//TreeMap. Sorted using order of keys ascending (Implemented using Red Black Tree). All operations are O(log(n))
 		var treeMap = new TreeMap<Integer, Integer>();
 		
+		//LinkedHashMap maintains order of insertion. Implemented using doubly linked list
+		var linkedHashMap = new LinkedHashMap<Integer, Integer>();
 		
 	}
 }
