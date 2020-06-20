@@ -106,5 +106,10 @@ public class Syntax {
 		//Random
 		Random rand = new Random();
 		int next = rand.nextInt(10);   // generate from 0-9
+		
+		//TreeMap. Sorted using order of keys ascending (Implemented using Red Black Tree). All operations are O(log(n))
+		var treeMap = new TreeMap<Integer, Integer>();
+		
+		
 	}
 }
