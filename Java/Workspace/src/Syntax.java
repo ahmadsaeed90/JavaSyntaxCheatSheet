@@ -47,6 +47,10 @@ public class Syntax {
 		boolean isLetter = Character.isLetter(ch);
 		boolean isLower = Character.isLowerCase('a');
 		boolean isUpper = Character.isUpperCase('a');
+		
+		// Arrays
+		int [] arr3 = {1,2,3};
+		Arrays.sort(arr);  //ascending order. There is no easy way to sort array of primitives in descending order
 
 		// List
 		var list = new ArrayList<String>();
