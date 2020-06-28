@@ -118,5 +118,9 @@ public class Syntax {
 		//Random
 		Random rand = new Random();
 		int next = rand.nextInt(10);   // generate from 0-9
+		
+		//Collections class
+		Collections.binarySearch(list, key);    //returns index if found, otherwise (-expectedIndex-2)
+		Collections.binarySearch(list, key, (a, b) -> Integer.compare(a.getKey(), b.getKey());  // customer comparator
 	}
 }
