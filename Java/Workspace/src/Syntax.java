@@ -122,5 +122,9 @@ public class Syntax {
 		//Collections class
 		Collections.binarySearch(list, key);    //returns index if found, otherwise returns (-expectedIndex-1)
 		Collections.binarySearch(list, key, (a, b) -> Integer.compare(a.getKey(), b.getKey());  // customer comparator
+					 
+		//bitwise operators
+		int sx = 10 >> 1;  // signed right shhift, will use the sign bit to fill the position after shift
+		int sx2 = 10 >>> 1; // unsigned right shift, will use 0 to fill the position
 	}
 }
