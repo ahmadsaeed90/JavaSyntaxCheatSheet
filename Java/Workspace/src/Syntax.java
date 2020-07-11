@@ -107,6 +107,13 @@ public class Syntax {
 		pq.peek(); // returns element at the root
 		pq.size();
 		var maxPq = new PriorityQueue<Integer>(Collections.reverseOrder()); // max heap
+		
+		var pq = new PriorityQueue<TempNode>(new Comparator<TempNode>() {    // customer comparator
+			@Override
+			public int compare(TempNode o1, TempNode o2) {
+				return 0;
+			}
+		});
 
 		// Set
 		Set<Integer> set = new HashSet<Integer>();
