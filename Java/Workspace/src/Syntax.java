@@ -37,6 +37,9 @@ public class Syntax {
 		String newStr = str.replace("t", "abc"); // replaces all substrings
 		String newStr2 = str.replaceFirst("t", "abc"); // replace only first substring
 		var res = str.replaceAll("\\s+", ""); // replaceAll takes regex
+		
+		var sb = new StringBuilder();
+		sb.deleteCharAt(1);   //delete char at index
 
 		// Character
 		char ch = 'a';
