@@ -54,6 +54,7 @@ public class Syntax {
 		// Arrays
 		int [] arr3 = {1,2,3};
 		Arrays.sort(arr);  //ascending order. There is no easy way to sort array of primitives in descending order
+		List<Integer>[] adjList = new ArrayList[n];   // create array of lists
 
 		// List
 		var list = new ArrayList<String>();
