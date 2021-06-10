@@ -82,6 +82,8 @@ public class Syntax {
 		
 		//TreeMap. Sorted using order of keys ascending (Implemented using Red Black Tree). All operations are O(log(n))
 		var treeMap = new TreeMap<Integer, Integer>();
+		var floor = treeMap.floorKey(start);   // returns the greatest key less than or equal to given key from the parameter. 
+		var ceil = treeMap.ceilingKey(start);  // returns the least key greater than or equal to the given key or null if the such a key is absent.
 		
 		//LinkedHashMap maintains order of insertion. Implemented using doubly linked list. Insertion and lookup are O(1)
 		var linkedHashMap = new LinkedHashMap<Integer, Integer>();
